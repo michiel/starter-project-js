@@ -1,0 +1,23 @@
+{
+  "name": "starter-project",
+  "version": "0.0.1",
+  "description": "Starter project",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-jest": "*",
+    "babel-preset-env": "^1.6.1",
+    "jest": "*",
+    "jest-cli": "*"
+  },
+  "jest": {
+    "transform": {
+      ".*": "<rootDir>/node_modules/babel-jest"
+    }
+  }
+}
