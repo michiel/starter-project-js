@@ -1,5 +1,4 @@
-import { sumOfTwoInteger } from "./index"
-import { diffOfTwoInteger } from "./index"
+const { sumOfTwoInteger, diffOfTwoInteger } = require("./index");
 
 test("sum of 1 and 4 should return 5", () => {
     expect(sumOfTwoInteger(1, 4)).toEqual(5);

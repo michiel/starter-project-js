@@ -1,7 +1,12 @@
-export function sumOfTwoInteger(x, y) {
+function sumOfTwoInteger(x, y) {
     return x + y;
 }
 
-export function diffOfTwoInteger(x, y) {
+function diffOfTwoInteger(x, y) {
     return x - y;
 }
+
+module.exports = {
+  sumOfTwoInteger,
+  diffOfTwoInteger,
+};

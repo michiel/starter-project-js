@@ -10,16 +10,7 @@
   "keywords": [],
   "license": "MIT",
   "devDependencies": {
-    "babel-jest": "*",
     "jest": "*",
     "jest-cli": "*"
-  },
-  "jest": {
-    "transform": {
-      ".*": "<rootDir>/node_modules/babel-jest"
-    }
-  },
-  "dependencies": {
-    "@babel/preset-env": "^7.4.4"
   }
 }
